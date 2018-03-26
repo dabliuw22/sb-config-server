@@ -1,0 +1,10 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:/home/will/Documentos/sb-config-server-repo
